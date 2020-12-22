@@ -9,8 +9,13 @@ import SwiftUI
 
 struct TimeLabel: View {
     var body: some View {
-        Text("Time Lable")
+        ZStack{
+            Text("10")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .frame(width: 100, height: 100, alignment:.center)
+                .foregroundColor(Color(.systemGray))
+        }
     }
 }
 
-}
