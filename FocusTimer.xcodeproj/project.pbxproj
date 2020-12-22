@@ -11,6 +11,8 @@
 		DBB41EE52591A14F00872D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EE42591A14F00872D7F /* ContentView.swift */; };
 		DBB41EE72591A15200872D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB41EE62591A15200872D7F /* Assets.xcassets */; };
 		DBB41EEA2591A15200872D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB41EE92591A15200872D7F /* Preview Assets.xcassets */; };
+		DBB41EF42591A34500872D7F /* TimeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EF32591A34500872D7F /* TimeLabel.swift */; };
+		DBB41EF82591A36800872D7F /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EF72591A36800872D7F /* TimeBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DBB41EE62591A15200872D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB41EE92591A15200872D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBB41EEB2591A15200872D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB41EF32591A34500872D7F /* TimeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLabel.swift; sourceTree = "<group>"; };
+		DBB41EF72591A36800872D7F /* TimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,9 @@
 		DBB41EE12591A14F00872D7F /* FocusTimer */ = {
 			isa = PBXGroup;
 			children = (
+				DBB41EF72591A36800872D7F /* TimeBar.swift */,
+				DBB41EF32591A34500872D7F /* TimeLabel.swift */,
+				DBB41EF22591A32E00872D7F /* Views */,
 				DBB41EE22591A14F00872D7F /* FocusTimerApp.swift */,
 				DBB41EE42591A14F00872D7F /* ContentView.swift */,
 				DBB41EE62591A15200872D7F /* Assets.xcassets */,
@@ -67,6 +74,13 @@
 				DBB41EE92591A15200872D7F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBB41EF22591A32E00872D7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB41EF82591A36800872D7F /* TimeBar.swift in Sources */,
 				DBB41EE52591A14F00872D7F /* ContentView.swift in Sources */,
+				DBB41EF42591A34500872D7F /* TimeLabel.swift in Sources */,
 				DBB41EE32591A14F00872D7F /* FocusTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
