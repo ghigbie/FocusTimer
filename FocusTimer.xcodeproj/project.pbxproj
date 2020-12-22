@@ -56,8 +56,6 @@
 		DBB41EE12591A14F00872D7F /* FocusTimer */ = {
 			isa = PBXGroup;
 			children = (
-				DBB41EF72591A36800872D7F /* TimeBar.swift */,
-				DBB41EF32591A34500872D7F /* TimeLabel.swift */,
 				DBB41EF22591A32E00872D7F /* Views */,
 				DBB41EE22591A14F00872D7F /* FocusTimerApp.swift */,
 				DBB41EE42591A14F00872D7F /* ContentView.swift */,
@@ -79,6 +77,8 @@
 		DBB41EF22591A32E00872D7F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DBB41EF72591A36800872D7F /* TimeBar.swift */,
+				DBB41EF32591A34500872D7F /* TimeLabel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
