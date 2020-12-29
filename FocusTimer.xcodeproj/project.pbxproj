@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2DB540259A9AE20006A63C /* FocusTimerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2DB53F259A9AE20006A63C /* FocusTimerController.swift */; };
 		DBB41EE32591A14F00872D7F /* FocusTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EE22591A14F00872D7F /* FocusTimerApp.swift */; };
 		DBB41EE52591A14F00872D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB41EE42591A14F00872D7F /* ContentView.swift */; };
 		DBB41EE72591A15200872D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB41EE62591A15200872D7F /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB2DB53F259A9AE20006A63C /* FocusTimerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerController.swift; sourceTree = "<group>"; };
 		DBB41EDF2591A14F00872D7F /* FocusTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB41EE22591A14F00872D7F /* FocusTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusTimerApp.swift; sourceTree = "<group>"; };
 		DBB41EE42591A14F00872D7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB2DB53E259A9AC20006A63C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB2DB53F259A9AE20006A63C /* FocusTimerController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		DBB41ED62591A14F00872D7F = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		DBB41EE12591A14F00872D7F /* FocusTimer */ = {
 			isa = PBXGroup;
 			children = (
+				DB2DB53E259A9AC20006A63C /* Controllers */,
 				DBB41EF22591A32E00872D7F /* Views */,
 				DBB41EE22591A14F00872D7F /* FocusTimerApp.swift */,
 				DBB41EE42591A14F00872D7F /* ContentView.swift */,
@@ -153,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBB41EF82591A36800872D7F /* TimeBar.swift in Sources */,
+				DB2DB540259A9AE20006A63C /* FocusTimerController.swift in Sources */,
 				DBB41EE52591A14F00872D7F /* ContentView.swift in Sources */,
 				DBB41EF42591A34500872D7F /* TimeLabel.swift in Sources */,
 				DBB41EE32591A14F00872D7F /* FocusTimerApp.swift in Sources */,

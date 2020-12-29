@@ -13,6 +13,8 @@ struct ContentView: View {
             TimeBar()
             TimeLabel()
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color(UIColor.systemGray4))
     }
 }
 
